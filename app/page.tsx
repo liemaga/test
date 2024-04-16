@@ -173,7 +173,7 @@ export default function Home() {
           >
             <p className="text-2xl font-bold">Obtenez une Estimation</p>
             <p className="text-xl font-normal my-[1.5rem]">
-            Obtenez une estimation de suite et demandez un devis plus précis et détaillé gratuitement
+            Obtenez une estimation de suite et demandez un devis plus précis et détaillé gratuitement.
             </p>
             <Button size={"lg"}>
               Découvrir <DoubleArrowDownIcon className="ml-2 h-4 w-4" />
