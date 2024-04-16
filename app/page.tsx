@@ -41,11 +41,10 @@ export default function Home() {
         className="absolute rotate-[160deg] top-[10%] left-[-45%] sm:top-[45%] sm:left-[-15%] md:top-[20%] md:left-[-20%] lg:top-[30%] lg:left-[-10%] xl:top-[25%] xl:left-[-10%] 2xl:top-[20%] 2xl:left-[-5%]"
       />
 
-
       <div className="bg-[#ccdde1] bg-opacity-20">
         <div className="pt-[5rem] flex flex-col items-center justify-center md:flex-row md:items-center">
           <div className="mb-[3rem] md:mb-0 md:mr-[3rem] w-[80%] md:w-[40%] lg:w-[45%]">
-            <Slide triggerOnce >
+            <Slide triggerOnce>
               <Image
                 src="/undraw_dev_focus_re_6iwt.svg"
                 width={500}
@@ -173,7 +172,8 @@ export default function Home() {
           >
             <p className="text-2xl font-bold">Obtenez une Estimation</p>
             <p className="text-xl font-normal my-[1.5rem]">
-            Obtenez une estimation de suite et demandez un devis plus précis et détaillé gratuitement
+              Obtenez une estimation de suite et demandez un devis plus précis
+              et détaillé gratuitement
             </p>
             <Button size={"lg"}>
               Découvrir <DoubleArrowDownIcon className="ml-2 h-4 w-4" />
@@ -263,11 +263,12 @@ export default function Home() {
             <Slide direction="left" triggerOnce>
               <div className="text-center">
                 <p className="text-2xl font-bold mb-3">
-                  Trouver votre solution
+                  Images, Textes, design, hébergement
                 </p>
                 <p className="text-xl font-normal">
-                  Nous vous aidons à trouver la solution la plus optimisée pour
-                  votre profil
+                  On s’occupe du design avec leurs consignes, on peut s’occuper
+                  des textes et des images et on aide a choisir et mettre en
+                  place l’hébergement nom de domaine et tout
                 </p>
               </div>
             </Slide>
@@ -291,11 +292,12 @@ export default function Home() {
             <Slide direction="right" triggerOnce>
               <div className="text-center">
                 <p className="text-2xl font-bold mb-3">
-                  Trouver votre solution
+                  Formation, analytics, SEO et Visibilité{" "}
                 </p>
                 <p className="text-xl font-normal">
-                  Nous vous aidons à trouver la solution la plus optimisée pour
-                  votre profil
+                  Nous vous formons sur l’utilisation de votre produit, en plus
+                  de notre seo, vous pouvez etre visibles sur les reseaux et
+                  autre, et analysez le trafic de votre sites
                 </p>
               </div>
             </Slide>
