@@ -171,10 +171,9 @@ export default function Home() {
             triggerOnce
             className="w-full md:w-2/3 mb-[2rem] md:mb-auto"
           >
-            <p className="text-2xl font-bold">Demandez un Devis</p>
+            <p className="text-2xl font-bold">Obtenez une Estimation</p>
             <p className="text-xl font-normal my-[1.5rem]">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-              laboriosam animi blanditiis!
+            Obtenez une estimation de suite et demandez un devis plus précis et détaillé gratuitement
             </p>
             <Button size={"lg"}>
               Découvrir <DoubleArrowDownIcon className="ml-2 h-4 w-4" />
